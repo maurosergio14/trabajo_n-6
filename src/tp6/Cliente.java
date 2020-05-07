@@ -12,7 +12,7 @@ public class Cliente {
     private String apellido;
     private String ciudad;
     private String direccion;
-    // int telefono;
+    
     private long dni;
 
     public String toString(){
@@ -23,7 +23,7 @@ public class Cliente {
         this.apellido = apellido;
         this.ciudad = ciudad;
         this.direccion = direccion;
-        //this.telefono=telefono;
+        
         this.dni=dni;
     }
 
